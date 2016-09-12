@@ -1,0 +1,12 @@
+Install:
+First extract the zip file.
+Now execute(double-click) Setup.exe from the extracted folder. give the admin permission if it wants. 
+Now, press 'C' if you want to customize or press any other key to go with default settings.
+When installation is done, it want's to scan your whole system. press 'y'.
+
+Uninstall:
+launch KitNashok icon from desktop  and press
+[tab] >[tab] >[1]
+
+
+or you can just execute uninstaller.exe and press 1	
