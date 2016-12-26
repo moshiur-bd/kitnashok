@@ -19,7 +19,7 @@ char current_selected_drive;
 int run=1;
 char d_label[100];
 char queued_drives[100];
-
+int in_queue=0;
 bool call_from_design=1;
 int sleeping_time=100;
 //////////////////rules///////////
@@ -684,11 +684,11 @@ void contact_us()
     system("cls");
     printf("\n\n\tLike Us or Contact Us:\n\t\t[0]\tFacebook Page\t: www.facebook.com/KitNashok\n");
     printf("\n\n\n\n\tDevelopers:\n\t\tMd. Moshiur Rahman Rabby:\n\n\t\t\t");
-    printf("Mobile\t: +880 175-3838158\n\t\t");
-    printf("[1]\tFacebook ID\t: www.facebook.com/moshiur.rahmanrabby\n");
+    printf("Mobile\t: +8801840018820\n\t\t");
+    printf("[1]\tFacebook ID\t: www.facebook.com/hottCPU\n");
     printf("\n\n\n\t\tSudipto Roy:\n\n\t\t\t");
     printf("Mobile\t: +880 194-4984923\n\t\t");
-    printf("[2]\tFacebook ID\t: www.facebook.com/sudipto.roy.313\n");
+    printf("[2]\tFacebook ID\t: www.facebook.com/sudipto.roy.bd\n");
     printf("\n\t\t\t\t:>");
     switch(getch())
     {
@@ -698,81 +698,34 @@ void contact_us()
         Sleep(1500);
         system("start www.facebook.com/KitNashok");
         printf("Loading.");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
+        for(int i=0;i<10;i++){
+            Sleep(500);
+            printf(".");
+        }
+
         break;
 
     case '1':
         system ("cls");
         printf("\n\n\n\n\n\n\n\t\t\t\tConnecting to Moshiur=>\n\t\t\t\t\t");
         Sleep(1500);
-        system("start www.facebook.com/moshiur.rahmanrabby");
+        system("start www.facebook.com/hottCPU");
         printf("Loading.");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
+        for(int i=0;i<10;i++){
+            Sleep(500);
+            printf(".");
+        }
         break;
     case '2':
         system ("cls");
         printf("\n\n\n\n\n\n\n\t\t\t\tConnecting to Sudipto=>\n\t\t\t\t\t");
         Sleep(1500);
-        system("start www.facebook.com/sudipto.roy.313");
+        system("start www.facebook.com/sudipto.roy.bd");
         printf("Loading.");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
-        Sleep(500);
-        printf(".");
+        for(int i=0;i<10;i++){
+            Sleep(500);
+            printf(".");
+        }
         break;
 
     }
